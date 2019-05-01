@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="chessboard.css" />
+</head>
+
+<body background="https://wallpapercave.com/wp/aDEjl8r.jpg">
+  <div id="modeBtns">
+    <button onclick="v2()">2 vs 2</button>
+    <button onclick="vPC()">Player vs Computer</button>
+    <button onclick="vCC()">Computer vs Computer</button>
+  </div>
+  <div id="board" style="width: 800px"></div>
+  <div id="parameters">Status: <span id="status"></span></div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://chessboardjs.com/js/chessboard.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.min.js"></script>
+  <script src="chessinit.js"></script>
+
+</body>
+
+</html>
