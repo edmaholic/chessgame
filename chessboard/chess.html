@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/chessboard.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.min.js"></script>
+  <script src="assets/js/chessboard.min.js"></script>
+  <script src="assets/js/chessinit.min.js"></script>
+</head>
+
+<body>
+  <div class="container fullheight">
+    <div class="row p-3" id="modeBtns">
+      <div class="col"><button onclick="v2()" class="btn btn-primary btn-block">Player vs Player</button></div>
+      <div class="col"><button onclick="vPC()" class="btn btn-primary btn-block">Player vs Computer</button></div>
+      <div class="col"><button onclick="vCC()" class="btn btn-primary btn-block">Computer vs Computer</button></div>
+    </div>
+    <div id="board" class="p-3" style="width: 100%"></div>
+    <div id="parameters" style="text-align: center" class="jumbotron p-3">
+      <strong>Status:</strong> <span id="status">Ready</span>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
